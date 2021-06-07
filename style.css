@@ -65,6 +65,17 @@ header ul li a{
     color: var(--secondary-color)
 }
 
+table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table tr td{
+    padding:20px;
+    text-align: center;
+}
+
 /* || classed selectors */
 .job-board{
     width: 33%;
@@ -95,13 +106,15 @@ header ul li a{
 }
 
 .work-card {
-    display: flex;
-    width: 45%;
+    flex: 1 0 0;
+    width: 33%;
     min-width: 450px;
+    max-width: 600px;
 }
 
 #full-stack-card{
     width: 90%;
+    min-width: 600px;
 }
 
 .work-card figure {
@@ -154,21 +167,24 @@ header ul li a{
     margin-right: -1.5rem;
     justify-content: center;
 }
+/* official discord color */
+#discord-icon{
+    color: #1a0dab;
+}
 
-/* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
-@media screen and (min-width: 768px) {
-    /* on tablets, set columns to only be 50% of the width and not grow */
-    .card-column {
-      flex: 0 0 50%;
-      max-width: 90%;
-    }
-  }
-  
-  /* media query for larger screens */
-  @media screen and (min-width: 992px) {
-  
-    .card-column {
-      flex: 0 0 33.333%;
-      max-width: 33.333%;
-    }
-  }
+#slack-icon{
+    width: 70px;
+}
+#github-icon{
+    width: 70px;
+}
+#google-icon{
+    width: 70px;
+}
+
+/* official linked In color */
+#linkedIn-icon{
+    color: #0a66c2;
+}
+
+
