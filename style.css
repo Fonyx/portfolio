@@ -115,7 +115,7 @@ table tr td{
 
 #full-stack-card{
     width: 90%;
-    min-width: 600px;
+    max-width: 1200px;
 }
 
 .work-card figure {
