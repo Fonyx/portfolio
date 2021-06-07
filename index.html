@@ -5,23 +5,120 @@ https://webflow.com/website/clonedgregchristian
 -->
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
-
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-
         <!-- https://www.codesprogram.com/icons/Font-awesome-slack-icon -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <!-- <script src="https://d3js.org/d3.v6.min.js"></script> -->
+        <script src="animation.js"></script>
     </head>
     <body>
         <header>
-
+            <img  id="display-picture" src="Assets/img/circle-dp.png" alt='display picture of nick'>
+            <nav>
+                <ul>
+                    <li class="header-item">
+                        <a href="#about"><h2>About Me</h2></a>
+                    </li>
+                    <li><h2>|</h2></li>
+                    <li class="header-item">
+                        <a href="#work"><h2>My Work</h2></a>
+                    </li>
+                    <li><h2>|</h2></li>
+                    <li class="header-item">
+                        <a href="#contact"><h2>Contact</h2></a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- <svg id="target" width="300px" height="300px">
+                <circle r="50" class="orbit" id="largest-orbit" cx="150" cy="150"></circle>
+                <circle r="30" class="orbit" id="medium-orbit" cx="150" cy="150"></circle>
+                <circle r="10" class="orbit" id="smallest-orbit" cx="150" cy="150"></circle>
+                <circle r="10" class="planet" id="primary-planet" cx="101" cy="150"></circle>
+                <circle r="10" class="planet" id="secondary-planet" cx="179" cy="150"></circle>
+            </svg> -->
+            <!-- <script>
+                let header_svg = d3.select('#header-svg')
+                
+                for (let i = 0; i < 3; i++){
+                    header_svg.append('circle')
+                    .attr('r', i*10)
+                    .classed('orbit', true)
+                    .attr('cx', 150)
+                    .attr('cy', 150);
+                }
+                
+            </script> -->
         </header>
 
-        <section>
-            <i class="bi bi-alarm"></i>
+        <section id="overview">
+            <h1 id="title-name"  class="title">NICHOLAS RITCHIE</h1>
+            <div id="jobs">
+                <div class="job-board professions">
+                    <h4 id="engineer" class="current_job">WEB DEVELOPER</h4>
+                    <h4 id="engineer" class="last-job">PYTHONEER</h4>
+                    <h4 id="engineer" class="last-job">ENGINEER</h4>
+                    <h4 id="engineer" class="">PHYSICIST</h4>
+                    <h4 id="engineer" class="">PHOTOGRAPHER</h4>
+                </div>
+                <div class="job-board places">
+                    <h4 id="sydney" class="current_job">CANBERRA</h4>
+                    <h4 id="sydney" class="last-job">SYDNEY</h4>
+                </div>
+                <div class="job-board companies">
+                    <h4 id="twosix" class="current_job">BYTEMARK</h4>
+                    <h4 id="twosix" class="last-job">II-VI CORP</h4>
+                    <h4 id="twosix" class="">AAO</h4>
+                    <h4 id="twosix" class="">EOSS</h4>
+                    <h4 id="twosix" class="">UNSW</h4>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2 id="about-title"  class="title">About Me</h2>
+            <div id="about-text">
+                <p>
+                    orem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen 
+                    book. It has survived not only five centuries, but also the leap into electronic 
+                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with the 
+                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
+                    desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+        </section>
+
+        <section id="work">
+            <h2 id="work-title" class="title">My Work</h2>
+            <div id="work-cards">
+
+                <div class="work-card current-job" id="full-stack">
+
+                </div>
+                <div class="work-card" id="photonics">
+                    <figure>
+                        <img src="https://marvel-b1-cdn.bc0a.com/f00000000223354/www.exponent.com/~/media/practices-capabilities-and-industries/eecs/electronics/optics/optics_photonics_istock_35342648_1250x450pxrecovered.jpg">
+                        <figcaption>Photonics, A field of electricity and light</figcaption>
+                    </figure>
+                </div>
+                <div class="work-card" id="physicist">
+
+                </div>
+                <div class="work-card" id="pythoneer">
+
+                </div>
+                <div class="work-card" id="photographer">
+
+                </div>
+  
+            </div>
+        </section>
+
+        <section id="contact">
             <i class="fab fa-discord"></i>
-            <i class="fab fa-spin fa-slack"></i>
-        
+            <i class="fab fa-slack"></i>
         </section>
 
         <footer>

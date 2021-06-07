@@ -1,0 +1,134 @@
+/* variables */
+:root{
+    --primary-color: #72717118;
+    --secondary-color: #606060;
+    --feature-color: #ff3823;
+    --dark-feature-color: #b3291a;
+    --orbit-color: #60606010;
+}
+
+/* universals */
+* {
+    font-family: 'Source Sans Pro', 'Century Gothic', 'Arial Narrow', Arial, sans-serif
+}
+
+/* || semantic tags */
+body{
+    background-color:var(--primary-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 200;
+}
+
+h1 {
+    color: var(--feature-color);
+    font-size: 50px;
+}
+
+h2 {
+    color: var(--secondary-color);
+    font-size: 35px;
+}
+
+header ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 0px;
+    width: 90%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    width:80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+header ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: var(--secondary-color)
+}
+
+/* || classed selectors */
+.job-board{
+    width: 33%;
+    text-align: center;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.title{
+    text-align: center;
+}
+
+.places{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#display-picture{
+    width: 10%;
+    position: absolute;
+}
+
+.work-card figure {
+    position: relative;
+    opacity: 70%;
+    border: 4px solid var(--secondary-color);
+}
+
+.work-card figure:hover {
+    opacity: 90%;
+}
+
+.work-card figure img {
+    vertical-align: bottom;
+    width: 100%;
+}
+
+.work-card figure figcaption{
+    color: white;
+    /* position: absolute; */
+    bottom: 0%;
+    left: 50%;
+    padding-left: 5px;
+    /* a transparent background */
+    background: var(--secondary-color);
+}
+
+.current_job{
+    color: var(--feature-color);
+}
+
+.last-job{
+    color: var(--dark-feature-color);
+}
+
+/* || identified tags */
+
+
+#jobs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* #photonics{
+    width: 80%;
+    position: relative;
+} */
