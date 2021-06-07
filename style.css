@@ -1,6 +1,6 @@
 /* variables */
 :root{
-    --primary-color: #72717118;
+    --primary-color: #9e9d9d18;
     --secondary-color: #606060;
     --feature-color: #ff3823;
     --dark-feature-color: #b3291a;
@@ -79,11 +79,29 @@ header ul li a{
 .places{
     margin-left: 10px;
     margin-right: 10px;
+    width: 15%;
 }
 
 #display-picture{
     width: 10%;
     position: absolute;
+}
+
+/* Set the parent container to a flex box */
+.work-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2px;
+}
+
+.work-card {
+    display: flex;
+    width: 45%;
+    min-width: 450px;
+}
+
+#full-stack-card{
+    width: 90%;
 }
 
 .work-card figure {
@@ -128,7 +146,29 @@ header ul li a{
     justify-content: space-evenly;
 }
 
-/* #photonics{
-    width: 80%;
-    position: relative;
-} */
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    justify-content: center;
+}
+
+/* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+@media screen and (min-width: 768px) {
+    /* on tablets, set columns to only be 50% of the width and not grow */
+    .card-column {
+      flex: 0 0 50%;
+      max-width: 90%;
+    }
+  }
+  
+  /* media query for larger screens */
+  @media screen and (min-width: 992px) {
+  
+    .card-column {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+  }
