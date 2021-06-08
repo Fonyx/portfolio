@@ -50,7 +50,7 @@ nav{
 }
 
 section{
-    width: 90%;
+    width: 70%;
     margin-left:auto;
     margin-right:auto;
 }
@@ -75,17 +75,20 @@ table tr td{
     padding:20px;
     text-align: center;
     background-color: var(--orbit-color);
+    text-overflow: wrap;
 }
 
 /* || classed selectors */
 .job-board{
     width: 33%;
     text-align: center;
-    border-bottom: 1px solid var(--secondary-color);
+    border-bottom: 1px solid var(--dark-feature-color-color);
 }
 
 .title{
     text-align: center;
+    color: var(--dark-feature-color);
+    border-left: 3px solid var(--dark-feature-color);
 }
 
 .places{
@@ -97,6 +100,10 @@ table tr td{
 #display-picture{
     width: 10%;
     position: absolute;
+}
+
+#about {
+    text-align: center;
 }
 
 /* Set the parent container to a flex box */
@@ -116,6 +123,15 @@ table tr td{
 #full-stack-card{
     width: 90%;
     max-width: 1200px;
+}
+
+#photonics-img{
+    background-image: url("https://images.acvmagazine.com/file/BIT-Magazine-Images/feature_06.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 600px;
 }
 
 .work-card figure {
