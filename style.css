@@ -55,6 +55,12 @@ section{
     margin-right:auto;
 }
 
+header {
+    background-color: var(--primary-color);
+    top: 0;
+    width: 100%;
+}
+
 header ul li{
     list-style-type: none;
     display: inline;
@@ -87,7 +93,7 @@ table tr td{
 .title{
     text-align: center;
     color: var(--dark-feature-color);
-    border-left: 3px solid var(--dark-feature-color);
+    /* border-left: 3px solid var(--dark-feature-color); */
 }
 
 .places{
@@ -98,6 +104,7 @@ table tr td{
 
 #display-picture{
     width: 10%;
+    max-width: 100px;
     position: absolute;
 }
 
