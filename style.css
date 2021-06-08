@@ -66,16 +66,15 @@ header ul li a{
 }
 
 table{
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
 table tr td{
     padding:20px;
-    text-align: center;
-    background-color: var(--orbit-color);
-    text-overflow: wrap;
+    text-align: left;
+    /* background-color: var(--orbit-color); */
+    padding: 5px;
 }
 
 /* || classed selectors */
@@ -125,15 +124,6 @@ table tr td{
     max-width: 1200px;
 }
 
-#photonics-img{
-    background-image: url("https://images.acvmagazine.com/file/BIT-Magazine-Images/feature_06.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 400px;
-    height: 600px;
-}
-
 .work-card figure {
     position: relative;
     opacity: 70%;
@@ -147,6 +137,15 @@ table tr td{
 .work-card figure img {
     vertical-align: bottom;
     width: 100%;
+    /* Add blur effect */
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+.work-card figure img:hover {
+    /* Remove blur effect */
+    filter: none;
+    -webkit-filter: none;
 }
 
 .work-card figure figcaption{
@@ -184,19 +183,14 @@ table tr td{
     margin-right: -1.5rem;
     justify-content: center;
 }
+
 /* official discord color */
 #discord-icon{
     color: #1a0dab;
 }
 
-#slack-icon{
-    width: 70px;
-}
-#github-icon{
-    width: 70px;
-}
-#google-icon{
-    width: 70px;
+.icon{
+    width: 50px;
 }
 
 /* official linked In color */
