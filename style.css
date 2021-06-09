@@ -130,7 +130,7 @@ canvas{
     max-width: 600px;
 }
 
-#full-stack-card{
+#planetaryMotion{
     width: 90%;
     max-width: 1200px;
 }
@@ -148,6 +148,7 @@ canvas{
 .work-card figure img {
     vertical-align: bottom;
     width: 100%;
+    max-height: 500px;
     /* Add blur effect */
     filter: blur(1px);
     -webkit-filter: blur(1px);
