@@ -6,8 +6,9 @@ A landing page for all of my projects
 
 ## Planetary Mousework Tutorial
 ![Screenshot](https://github.com/Fonyx/planetaryMotion/blob/main/Assets/screenshots/planetary.PNG?raw=true "Planetary motion")
-following along with 
-https://www.youtube.com/watch?v=raXW5J1Te7Y&t=314s
+following along with: https://www.youtube.com/watch?v=raXW5J1Te7Y&t=314s
+repo: https://github.com/Fonyx/planetaryMotion
+live @ https://fonyx.github.io/planetaryMotion/
 
 
 ## Horiseon Marketing refactor
