@@ -1,6 +1,8 @@
 # Portfolio
 A landing page for all of my projects
 ![Screenshot](https://github.com/Fonyx/portfolio/blob/main/Assets/img/screenshots/portfolio.PNG?raw=true "Portfolio")
+repo: https://github.com/Fonyx/portfolio 
+live @ https://fonyx.github.io/portfolio/
 
 # Projects included
 
