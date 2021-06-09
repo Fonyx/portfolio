@@ -83,6 +83,10 @@ table tr td{
     padding: 5px;
 }
 
+canvas{
+    background-color: var(--orbit-color);
+}
+
 /* || classed selectors */
 .job-board{
     width: 33%;
