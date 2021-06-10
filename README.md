@@ -27,10 +27,12 @@ repo: https://github.com/Fonyx/clock
 live @ https://fonyx.github.io/clock/    
 
 
-## Horiseon Marketing refactor
-![Screenshot](https://github.com/Fonyx/homework-02/blob/main/screenshot2.PNG?raw=true "Horiseon Marketing")  
-repo: https://github.com/Fonyx/homework-02  
-live @ https://fonyx.github.io/homework-02/  
+## Brownian Motion JS
+![Screenshot](https://github.com/Fonyx/brownian/blob/main/screenshot.PNG?raw=true "brownian motion")  
+following along with tutorial - https://www.youtube.com/watch?v=yq2au9EfeRQ
+repo: https://github.com/Fonyx/brownian 
+live @ https://fonyx.io.github.com/brownian/  
+
 
 ## Pendulum Fanpage
 ![Screenshot](https://github.com/Fonyx/fanpage/blob/main/Assets/screenshot.PNG?raw=true "Pendulum")  

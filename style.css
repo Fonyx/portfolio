@@ -13,6 +13,10 @@
 }
 
 /* || semantic tags */
+a{
+    text-decoration: none;
+}
+
 body{
     background-color:var(--primary-color);
 }
