@@ -14,14 +14,14 @@ live @ https://fonyx.github.io/planetaryMotion/
 
 
 ## Weeks of Life Tutorial
-![Screenshot](https://github.com/Fonyx/weeks/blob/main/Assets/screenshots/screenshot.PNG?raw=true "Planetary motion")  
+![Screenshot](https://github.com/Fonyx/weeks/blob/main/Assets/screenshots/screenshot.PNG?raw=true "Weeks of Life")  
 A small project that shows the number of weeks you have lived  
 repo: https://github.com/Fonyx/weeks  
 live @ https://fonyx.github.io/weeks/  
 
 
 ## Clock JS Tutorial
-![Screenshot](https://github.com/Fonyx/clock/blob/main/Assets/screenshot.PNG?raw=true "Planetary motion")  
+![Screenshot](https://github.com/Fonyx/clock/blob/main/Assets/screenshot.PNG?raw=true "Clock tutorial")  
 following along with: https://codepen.io/afarrar/pen/JRaEjP  
 repo: https://github.com/Fonyx/clock  
 live @ https://fonyx.github.io/clock/    
