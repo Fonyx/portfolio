@@ -31,7 +31,7 @@ live @ https://fonyx.github.io/clock/
 ![Screenshot](https://github.com/Fonyx/brownian/blob/main/screenshot.PNG?raw=true "brownian motion")  
 following along with tutorial - https://www.youtube.com/watch?v=yq2au9EfeRQ
 repo: https://github.com/Fonyx/brownian 
-live @ https://fonyx.io.github.com/brownian/  
+live @ https://fonyx.github.io/brownian/  
 
 
 ## Pendulum Fanpage
