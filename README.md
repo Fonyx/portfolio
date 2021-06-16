@@ -41,6 +41,6 @@ live @ https://fonyx.github.io/fanpage/
 
 
 ## Password Generator
-![Screenshot](https://github.com/Fonyx/password/blob/main/screenshot.PNG?raw=true "Password Generator")  
+![Screenshot](https://github.com/Fonyx/passwordGen/blob/main/screenshot.PNG?raw=true "Password Generator")  
 repo: https://github.com/Fonyx/passwordGen  
 live @ https://fonyx.github.io/passwordGen/  
