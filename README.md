@@ -38,3 +38,9 @@ live @ https://fonyx.github.io/brownian/
 ![Screenshot](https://github.com/Fonyx/fanpage/blob/main/Assets/screenshot.PNG?raw=true "Pendulum")  
 repo: https://github.com/Fonyx/fanpage  
 live @ https://fonyx.github.io/fanpage/  
+
+
+## Password Generator
+![Screenshot](https://github.com/Fonyx/password/blob/main/screenshot.PNG?raw=true "Password Generator")  
+repo: https://github.com/Fonyx/passwordGen  
+live @ https://fonyx.github.io/passwordGen/  
