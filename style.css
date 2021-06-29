@@ -53,12 +53,6 @@ nav{
     margin-right: auto;
 }
 
-section{
-    width: 70%;
-    margin-left:auto;
-    margin-right:auto;
-}
-
 header {
     background-color: var(--primary-color);
     top: 0;
@@ -83,13 +77,9 @@ table{
 table tr td{
     padding:20px;
     text-align: left;
-    /* background-color: var(--orbit-color); */
     padding: 5px;
 }
 
-canvas{
-    background-color: var(--orbit-color);
-}
 
 /* || classed selectors */
 .job-board{
@@ -120,59 +110,7 @@ canvas{
     text-align: center;
 }
 
-/* Set the parent container to a flex box */
-.work-cards{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 2px;
-}
 
-.work-card {
-    flex: 1 0 0;
-    width: 33%;
-    min-width: 450px;
-    max-width: 600px;
-}
-
-#planetaryMotion{
-    width: 90%;
-    max-width: 1200px;
-}
-
-.work-card figure {
-    position: relative;
-    opacity: 70%;
-    border: 4px solid var(--secondary-color);
-}
-
-.work-card figure:hover {
-    opacity: 90%;
-}
-
-.work-card figure img {
-    vertical-align: bottom;
-    width: 100%;
-    max-height: 500px;
-    /* Add blur effect */
-    filter: blur(1px);
-    -webkit-filter: blur(1px);
-}
-
-.work-card figure img:hover {
-    /* Remove blur effect */
-    filter: none;
-    -webkit-filter: none;
-}
-
-.work-card figure figcaption{
-    color: white;
-    /* position: absolute; */
-    bottom: 0%;
-    left: 50%;
-    padding-left: 5px;
-    /* a transparent background */
-    background: var(--secondary-color);
-}
 
 .current_job{
     color: var(--feature-color);
