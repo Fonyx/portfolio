@@ -9,10 +9,10 @@ https://webflow.com/website/clonedgregchristian
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-        <!-- https://www.codesprogram.com/icons/Font-awesome-slack-icon -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
-        <!-- <script src="https://d3js.org/d3.v6.min.js"></script> -->
+        <script>import bootstrap from 'bootstrap'</script>
+        // <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="animation.js"></script>
     </head>
     <body>
@@ -76,65 +76,98 @@ https://webflow.com/website/clonedgregchristian
 
         <section id="work">
             <h2 id="work-title" class="title">My Work</h2>
-            <div id="work-cards">
-                <div class="card-row">
-                    <div class="work-card" id="planetaryMotion">
+            <div class="container">
+                <div class="card m-3" id="planetary_motion" style="width: 18rem;">
+                    <img src="https://raw.githubusercontent.com/Fonyx/planetaryMotion/main/Assets/screenshots/planetary.PNG" class="card-img-top" id="planetaryMotion-img" alt="planetary motion">
+                    <div class="card-body">
+                        <h5 class="card-title">Tutorial: Planetary Motion JS</h5>
+                        <p class="card-text">A circular motion mouse interaction</p>
+                    </div>
+                    <div class="card-footer">
                         <a href="https://fonyx.github.io/planetaryMotion/">
-                            <figure>
-                                <img id="planetaryMotion-img" alt="planetary motion" 
-                                src="https://raw.githubusercontent.com/Fonyx/planetaryMotion/main/Assets/screenshots/planetary.PNG" alt="planetary motion">
-                                <figcaption>Tutorial: Planetary Motion JS</figcaption>
-                            </figure>
+                            <button class="btn btn-primary">LIVE</button>
+                        </a>
+                        <a href="https://github.com/Fonyx/planetaryMotion">
+                            <button class="btn btn-secondary">REPO</button>
                         </a>
                     </div>
                 </div>
-                <div class="card-row">
-                    <div class="work-card" id="week">
+                <div class="card m-3" id="week" style="width: 18rem;">
+                    <img src="https://raw.githubusercontent.com/Fonyx/weeks/main/Assets/screenshots/screenshot.PNG" alt="Life in weeks">                    
+                    <div class="card-body">
+                        <h5 class="card-title">Life in Weeks: JS</h5>
+                        <p class="card-text">A humbling visual of your life expectancy</p>
+                    </div>
+                    <div class="card-footer">
                         <a href="https://fonyx.github.io/weeks/">
-                            <figure>
-                                <img src="https://raw.githubusercontent.com/Fonyx/weeks/main/Assets/screenshots/screenshot.PNG" alt="Life in weeks">
-                                <figcaption>Life in Weeks: JS</figcaption>
-                            </figure>
+                            <button class="btn btn-primary">LIVE</button>
+                        </a>
+                        <a href="https://github.com/Fonyx/weeks">
+                            <button class="btn btn-secondary">REPO</button>
                         </a>
                     </div>
-                    <div class="work-card" id="clock">
+                </div>
+                <div class="card m-3" id="clock" style="width: 18rem;">
+                    <img src="https://raw.githubusercontent.com/Fonyx/clock/main/Assets/screenshot.PNG" alt="Neon Clock">
+                    <div class="card-body">
+                        <h5 class="card-title">Tutorial: Planetary Motion JS</h5>
+                        <p class="card-text">A circular motion mouse interaction</p>
+                    </div>
+                    <div class="card-footer">
                         <a href="https://fonyx.github.io/clock/">
-                            <figure>
-                                <img src="https://raw.githubusercontent.com/Fonyx/clock/main/Assets/screenshot.PNG" alt="Neon Clock">
-                                <figcaption>Tutorial: Clock JS</figcaption>
-                            </figure>
+                            <button class="btn btn-primary">LIVE</button>
+                        </a>
+                        <a href="https://github.com/Fonyx/clock">
+                            <button class="btn btn-secondary">REPO</button>
                         </a>
                     </div>
                 </div>
-                <div class="card-row">
-                    <div class="work-card" id="brownian">
+                <div class="card m-3" id="brownian" style="width: 18rem;">
+                    <img src="https://raw.githubusercontent.com/Fonyx/brownian/main/screenshot.PNG" alt="Brownian Motion">
+                    <div class="card-body">
+                        <h5 class="card-title">Tutorial: Planetary Motion JS</h5>
+                        <p class="card-text">A circular motion mouse interaction</p>
+                    </div>
+                    <div class="card-footer">
                         <a href="https://fonyx.github.io/brownian/">
-                            <figure>
-                                <img src="https://raw.githubusercontent.com/Fonyx/brownian/main/screenshot.PNG" alt="Brownian Motion">
-                                <figcaption>Tutorial: Brownian Motion JS</figcaption>
-                            </figure>
+                            <button class="btn btn-primary">LIVE</button>
                         </a>
-                    </div>
-                    <div class="work-card" id="fanpage">
-                        <a href="https://fonyx.github.io/fanpage/">
-                            <figure>
-                                <img src="https://raw.githubusercontent.com/Fonyx/fanpage/main/Assets/screenshot.PNG" alt="Pendulum Fanpage">
-                                <figcaption>Pendulum fanpage: HTML + CSS</figcaption>
-                            </figure>
+                        <a href="https://github.com/Fonyx/brownian">
+                            <button class="btn btn-secondary">REPO</button>
                         </a>
                     </div>
                 </div>
-                <div class="card-row">
-                    <div class="work-card" id="password">
+                <div class="card m-3" id="password" style="width: 18rem;">
+                    <img src="https://raw.githubusercontent.com/Fonyx/passwordGen/main/screenshot.PNG" alt="Password Generator">
+                    <div class="card-body">
+                        <h5 class="card-title">Tutorial: Planetary Motion JS</h5>
+                        <p class="card-text">A circular motion mouse interaction</p>
+                    </div>
+                    <div class="card-footer">
                         <a href="https://fonyx.github.io/passwordGen/">
-                            <figure>
-                                <img src="https://raw.githubusercontent.com/Fonyx/passwordGen/main/screenshot.PNG" alt="Password Generator">
-                                <figcaption>A flexible password generator</figcaption>
-                            </figure>
+                            <button class="btn btn-primary">LIVE</button>
+                        </a>
+                        <a href="https://github.com/Fonyx/passwordGen">
+                            <button class="btn btn-secondary">REPO</button>
                         </a>
                     </div>
                 </div>
-            </div>
+                <div class="card m-3" id="fanpage" style="width: 18rem;">
+                    <img src="https://raw.githubusercontent.com/Fonyx/fanpage/main/Assets/screenshot.PNG" alt="Pendulum Fanpage">
+                    <div class="card-body">
+                        <h5 class="card-title">Tutorial: Planetary Motion JS</h5>
+                        <p class="card-text">A circular motion mouse interaction</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://fonyx.github.io/fanpage/">
+                            <button class="btn btn-primary">LIVE</button>
+                        </a>
+                        <a href="https://github.com/Fonyx/fanpage">
+                            <button class="btn btn-secondary">REPO</button>
+                        </a>
+                    </div>
+                </div>
+            </div>     
         </section>
 
         <section id="contact">

@@ -214,4 +214,8 @@ canvas{
     color: #0a66c2;
 }
 
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
 
