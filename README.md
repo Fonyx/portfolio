@@ -4,7 +4,7 @@ A landing page for all of my projects
 repo: https://github.com/Fonyx/portfolio  
 live @ https://fonyx.github.io/portfolio/  
 
-# Projects included
+# Projects include
 ## JS Open Weather API Dashboard
 ![Screenshot](https://github.com/Fonyx/weatherDashboard/blob/main/screencap.gif?raw=true "Weather Dashboard")   
 repo: https://github.com/Fonyx/weatherDashboard/  
