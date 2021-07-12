@@ -5,6 +5,10 @@ repo: https://github.com/Fonyx/portfolio
 live @ https://fonyx.github.io/portfolio/  
 
 # Projects included
+## JS Open Weather API Dashboard
+![Screenshot](https://github.com/Fonyx/weatherDashboard/blob/main/screencap.gif?raw=true "Weather Dashboard")   
+repo: https://github.com/Fonyx/weatherDashboard/  
+live @ https://fonyx.github.io/weatherDashboard/  
 
 ## Planetary Mousework Tutorial
 ![Screenshot](https://github.com/Fonyx/planetaryMotion/blob/main/screencap.gif?raw=true "Planetary motion")  
