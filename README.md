@@ -5,6 +5,14 @@ repo: https://github.com/Fonyx/portfolio
 live @ https://fonyx.github.io/portfolio/  
 
 # Projects include
+
+## Movie Lookup App
+We made an actor based movie lookup web app. Provide one or two actors and see a list of movies to watch and some meta details
+
+![Screenshot](https://github.com/Fonyx/groupProject1/blob/main/screencap.gif?raw=true "Movie finder")  
+repo @ https://github.com/Fonyx/groupProject1  
+deployed @ https://fonyx.github.io/groupProject1/ 
+
 ## JS Open Weather API Dashboard
 ![Screenshot](https://github.com/Fonyx/weatherDashboard/blob/main/screencap.gif?raw=true "Weather Dashboard")   
 repo: https://github.com/Fonyx/weatherDashboard/  
