@@ -7,6 +7,18 @@ live @ https://fonyx.github.io/portfolio/
 # Projects include
 
 ## Movie Lookup App
+A node.js project that builds a team html page with links to github accounts and email addresses  
+
+![Screenshot](https://github.com/Fonyx/teamGenerator/blob/main/screencap.gif?raw=true "Team page generator")  
+repo @ https://github.com/Fonyx/teamGenerator  
+
+## Readme Generator
+A node.js project that walks you through building a linked and rich readme file with api fetches to add links  
+
+![Screenshot](https://github.com/Fonyx/readmeGen/blob/main/screencap.gif?raw=true "Readme generator")  
+repo @ https://github.com/Fonyx/readmeGen  
+
+## Movie Lookup App
 We made an actor based movie lookup web app. Provide one or two actors and see a list of movies to watch and some meta details
 
 ![Screenshot](https://github.com/Fonyx/actorLookup/blob/main/screencap.gif?raw=true "Movie finder")  
