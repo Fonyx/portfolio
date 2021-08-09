@@ -6,16 +6,16 @@ live @ https://fonyx.github.io/portfolio/
 
 # Projects include
 
-## Movie Lookup App
+## Team Page Generator
 A node.js project that builds a team html page with links to github accounts and email addresses  
 
-![Screenshot](https://github.com/Fonyx/teamGenerator/blob/main/screencap.gif?raw=true "Team page generator")  
+![Screenshot](https://github.com/Fonyx/teamGenerator/blob/main/assets/images/screencap.gif?raw=true "Team page generator")  
 repo @ https://github.com/Fonyx/teamGenerator  
 
 ## Readme Generator
 A node.js project that walks you through building a linked and rich readme file with api fetches to add links  
 
-![Screenshot](https://github.com/Fonyx/readmeGen/blob/main/screencap.gif?raw=true "Readme generator")  
+![Screenshot](https://github.com/Fonyx/readmeGen/blob/main/assets/images/screencap.gif?raw=true "Readme generator")  
 repo @ https://github.com/Fonyx/readmeGen  
 
 ## Movie Lookup App
