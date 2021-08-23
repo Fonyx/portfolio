@@ -6,6 +6,11 @@ live @ https://fonyx.github.io/portfolio/
 
 # Projects include
 
+## Employee Tracker CMS
+A node.js project that manages a MySql database using a cli to manage company employees  
+
+![Screenshot](https://github.com/Fonyx/employeeTracker/blob/main/assets/show.gif?raw=true "Employee CMS")  
+repo @ https://github.com/Fonyx/employeeTracker  
 ## Team Page Generator
 A node.js project that builds a team html page with links to github accounts and email addresses  
 
