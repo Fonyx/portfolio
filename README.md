@@ -10,7 +10,7 @@ live @ https://fonyx.github.io/portfolio/
 A node.js express app that allows users to post tech notes and add tags. Employs user auth and a heroku instance to
 serve and persist data  
 
-![Screenshot](https://github.com/Fonyx/tech-blog/blob/main/Assets/images/show.gif?raw=true "E-commerce ORM")  
+![Screenshot](https://github.com/Fonyx/tech-blog/blob/main/assets/images/show.gif?raw=true "E-commerce ORM")  
 repo @ https://github.com/Fonyx/tech-blog  
 deployed @ https://fonyx-tech-stack.herokuapp.com// 
 ## E-commerce ORM
