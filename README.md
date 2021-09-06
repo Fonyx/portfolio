@@ -6,6 +6,13 @@ live @ https://fonyx.github.io/portfolio/
 
 # Projects include
 
+## Tech Blog
+A node.js express app that allows users to post tech notes and add tags. Employs user auth and a heroku instance to
+serve and persist data  
+
+![Screenshot](https://github.com/Fonyx/tech-blog/blob/main/Assets/images/show.gif?raw=true "E-commerce ORM")  
+repo @ https://github.com/Fonyx/tech-blog  
+deployed @ https://fonyx-tech-stack.herokuapp.com// 
 ## E-commerce ORM
 A node.js project that mocks up an e-commerce website using a mysql+sequelize backend and an express app  
 
